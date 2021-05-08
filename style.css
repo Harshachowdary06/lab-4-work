@@ -1,0 +1,73 @@
+.index{
+
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+  margin: auto;
+  color: black;
+  width: 400px;
+  height: 500px;
+  padding-bottom: 50%;
+
+}
+
+#RN{
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
+  width: 500px;
+  height: 100px;
+  color: white;
+  margin: auto;
+  background-color: grey;
+  margin-bottom: 25%;
+}
+
+#EN{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5%;
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
+  width: 500px;
+  height: inherit;
+  color: white;
+  margin: auto;
+  background-color: grey;
+  margin-bottom: 25%;
+}
+
+#PN{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5%;
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
+  width: 500px;
+  height: inherit;
+  color: white;
+  margin: auto;
+  background-color: grey;
+  margin-bottom: 25%;
+}
+
+#Calc{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5%;
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+  font-family: monospace;
+  width: 500px;
+  height: inherit;
+  color: white;
+  margin: auto;
+  background-color: grey;
+  margin-bottom: 25%;
+}

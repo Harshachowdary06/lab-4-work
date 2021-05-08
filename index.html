@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab-4 tasks</title>
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <div class="index">
+
+    <h1>Content</h1>
+    <ul>
+      <li> <a href="#RN">Reading Name and displaying it</a></li>
+      <br>
+      <li><a href="#EN"> Display Even Numbers</a> </li>
+      <br>
+      <li><a href="#PN">Prime or not</a> </li>
+      <br>
+      <li><a href="#Calc">calc</a> </li>
+      <br>
+      <li><a target="_blank" href="form.html">Form validator</a></li>
+    </ul>
+
+  </div>
+
+
+  <div id="RN">
+    <p>welcome Please Enter Your Name:</p>
+    <input id="name" type="text" name="Name" title="Your Name" value="Harsha">
+    <button onclick="pop()">Try Me!</button>
+    <p id="data"></p>
+
+  </div>
+
+      <div id="EN">
+
+        <h3>JavaScript to print Even Numbers within a Range!</h3>
+        Start: <input type="number" min="0" id="start" value="1" />
+        End: <input type="number" id="end" min="1" value="20" />
+        <button onclick="printEvenNums()">Print!</button>
+        <p id="result"></p>
+
+      </div>
+
+      <div id="PN">
+
+        <h1>Prime or Not</h1>
+        <p>Enter an number :</p>
+        <input type="text" id="prim" value="2">
+        <button onclick="Primeornot()">Go!</button>
+        <p id="result" ></p>
+
+        </div>
+
+        <div id="Calc">
+        <h1>Caluclator</h1>
+
+        Enter 1st Num <input id="1" value="1"> <br>
+        <br>
+        Enter 2nd Num <input id="2" value="1"> <br>
+        <br>
+
+       <p id="result" > </p>
+       <br>
+        <button onclick="add()">+</button>
+        <button onclick="sub()">-</button>
+        <button onclick="mul()">*</button>
+        <button onclick="div()">/</button>
+        <button onclick="rem()">%</button>
+        <hr>
+        </div>
+
+
+
+
+
+
+
+        <script src="java.js" charset="utf-8"> </script>
+        <script src="javacal.js" charset="utf-8"> </script>
+  </body>
+</html>
